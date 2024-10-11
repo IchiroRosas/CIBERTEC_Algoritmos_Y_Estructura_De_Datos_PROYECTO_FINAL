@@ -323,8 +323,8 @@ public class Clientes extends JDialog implements ActionListener, MouseListener{
 	}
 	
 	private void mouseClickedTblClientes(MouseEvent e) {
-		String nombres = leerNombres();
 		MostrarInfoTabla();	
+		String nombres = leerNombres();
 		if(nombres.isBlank() == false) {
 			habilitarBotones();
 			deshabilitarTxts();
